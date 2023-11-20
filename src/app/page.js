@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                     <div className={styles.coltwo}></div>
                     <div className={styles.colthree}></div>
-                    <div className={styles.colfour}>
+                    <div className={`${styles.colfour} ${styles.hidden}`}>
                         <span
                             style={{
                                 width: "100%",
