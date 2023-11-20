@@ -1,0 +1,11 @@
+.ttd {
+    stroke-dasharray: 1000; /* Set to a value greater than the total path length */
+    stroke-dashoffset: 1000; /* Initially hide the entire path */
+    animation: drawPath 2s forwards; /* Animation duration and fill-mode */
+}
+
+@keyframes drawPath {
+    to {
+        stroke-dashoffset: 0; /* Draw the entire path */
+    }
+}
